@@ -59,7 +59,7 @@ main{
   -moz-border-radius: 3%;
   -ms-border-radius: 3%;
   -o-border-radius: 3%;
-  box-shadow: 20px 20px 0px 1px #210203;
+  box-shadow: 10px 10px 0px 1px #210203;
 }
 
 .divButtonContainer{
