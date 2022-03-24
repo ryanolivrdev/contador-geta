@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1, p {
+  font: 700 3rem "Poppins", sans-serif;
+  color: white;
+  text-shadow: 6px 6px 3px #210203;
+}
+
+body{
+  height: calc(100vh - 5rem);
+}
+a{
+  font: 500 1rem "Poppins", sans-serif;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  text-align: center;
+  gap: 7px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+  width: 100%;
+  background: #003D5B;
+}
+span{
+  color: #EDAE49;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: #30638E;
+}
+
+
+.sectionContainer{
+  background: #D1495B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 2rem;
+  height: 20rem;
+  width: 25rem;
+  padding: 3rem;
+  border-radius: 3%;
+  -webkit-border-radius: 3%;
+  -moz-border-radius: 3%;
+  -ms-border-radius: 3%;
+  -o-border-radius: 3%;
+  box-shadow: 20px 20px 0px 1px #210203;
+}
+
+.divButtonContainer{
+  display: flex;
+  gap: 2rem;
+}
+
+button{
+  box-shadow: 7px 7px 0px 1px #210203;
+  background-color: #D3B99F;
+  color: white;
+  text-shadow: 2px 2px 1px #210203;
+  border: none;
+  border-radius: 0.75rem;
+  -webkit-border-radius: 0.75rem;
+  -moz-border-radius: 0.75rem;
+  -ms-border-radius: 0.75rem;
+  -o-border-radius: 0.75rem;
+  font: 700 1rem "DM Sans", sans-serif;
+  width: 9rem;
+  height: 2.7rem;
+}
+
+.divButtonSubtrair{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.divButtonAdicionar{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+footer{
+  position: absolute;
+  bottom: 5px;
+}
+
+img{
+  width: 2rem;
+  filter: invert(92%) sepia(100%) saturate(1%) hue-rotate(138deg) brightness(105%) contrast(101%);
+}
