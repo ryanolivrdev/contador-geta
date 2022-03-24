@@ -1,6 +1,6 @@
 const counter = document.querySelector('.counter')
 
-counter.innerText = localStorage.getItem('counter')
+counter.innerText = localStorage.getItem('counter') || 0
 
 function add(quantity) {
   counter.innerText = Number(counter.innerText) + quantity
