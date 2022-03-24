@@ -1,17 +1,18 @@
 const counter = document.querySelector('.counter')
 
-function add_1() {
-  counter.innerText = Number(counter.innerText) + 1
+counter.innerText = localStorage.getItem('counter')
+
+function add(quantity) {
+  counter.innerText = Number(counter.innerText) + quantity
+  localStorage.setItem('counter', counter.textContent)
 }
 
-function add_10() {
-  counter.innerText = Number(counter.innerText) + 10
+function withdraw(quantity) {
+  counter.innerText = Number(counter.innerText) - quantity
+  localStorage.setItem('counter', counter.textContent)
 }
 
-function withdraw_1() {
-  counter.innerText = Number(counter.innerText) - 1
-}
-
-function withdraw_10() {
-  counter.innerText = Number(counter.innerText) - 10
+function reset() {
+  counter.innerText = 0
+  localStorage.setItem('counter', 0)
 }

@@ -50,7 +50,7 @@ main{
   justify-content: center;
   text-align: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1.6rem;
   height: 20rem;
   width: 25rem;
   padding: 3rem;
@@ -94,6 +94,7 @@ button{
   flex-direction: column;
   gap: 1.2rem;
 }
+
 
 footer{
   position: absolute;
