@@ -81,6 +81,7 @@ button{
   font: 700 1rem "DM Sans", sans-serif;
   width: 9rem;
   height: 2.7rem;
+  cursor: pointer;
 }
 
 .divButtonSubtrair{

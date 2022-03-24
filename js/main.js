@@ -1,20 +1,17 @@
-const buttonSubtrair1 = document.querySelector('.buttonSubtrair1')
-const buttonSubtrair10 = document.querySelector('.buttonSubtrair10')
-const buttonAdicionar1 = document.querySelector('.buttonAdicionar1')
-const buttonAdicionar10 = document.querySelector('.buttonAdicionar10')
 const counter = document.querySelector('.counter')
 
-function check(){
-  switch(){
-  case "+":
-
-  }
-}
-
-function add(){
+function add_1() {
   counter.innerText = Number(counter.innerText) + 1
 }
 
-function withdraw(){
-  counter.innerText = Number(counter.innerText) + 1
+function add_10() {
+  counter.innerText = Number(counter.innerText) + 10
+}
+
+function withdraw_1() {
+  counter.innerText = Number(counter.innerText) - 1
+}
+
+function withdraw_10() {
+  counter.innerText = Number(counter.innerText) - 10
 }
