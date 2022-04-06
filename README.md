@@ -7,7 +7,7 @@ Objetivos
 - Proporcionar independência à pessoas com deficiência através do desenvolvimento de protótipos e produtos de tecnologia asssistiva economicamente viáveis e com tecnologia de integração nacional por meio de parcerias com núcleos de pesquisa nacionais e internacionais em tecnologia assistiva, terapia ocupacional, fisioterapia, psicologia, engenharia e tecnologia da informação.
 
 Valores
-- Acreditar em Deus, acima de tudo; Respeitar as necessidades de pessoas com deficiência; Disponibilizar soluções de hardware e software com qualidade de mercado; Oferecer soluções economicamente viáveis e acessíveis.
+- Disponibilizar soluções de hardware e software com qualidade de mercado; Oferecer soluções economicamente viáveis e acessíveis.
 
 ## Contador :mantelpiece_clock:
 
